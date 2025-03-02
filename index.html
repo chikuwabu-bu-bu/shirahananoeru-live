@@ -10,14 +10,9 @@
             background: rgba(0, 0, 0, 0.6);
             backdrop-filter: blur(10px);
         }
-        .footer {
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-        }
     </style>
 </head>
-<body class="bg-gray-100 text-gray-900 flex flex-col min-h-screen">
+<body class="bg-gray-100 text-gray-900">
     <header class="glass-effect text-white p-4 text-center fixed top-0 left-0 w-full z-50">
         <h1 class="text-3xl font-bold">白花のえる - 公式サイト</h1>
         <nav class="mt-2">
@@ -29,13 +24,34 @@
         </nav>
     </header>
     
-    <main class="max-w-3xl mx-auto p-8 mt-20 bg-white shadow rounded-lg flex-grow">
-        <h2 class="text-2xl font-bold text-center">ようこそ！</h2>
-        <p class="text-center mt-4">AI VTuber「白花のえる」の公式サイトへようこそ！
-        ここでは最新のライブ情報やプロフィールを紹介します。</p>
+    <main class="max-w-3xl mx-auto p-8 mt-20 bg-white shadow rounded-lg text-center">
+        <h2 class="text-2xl font-bold">ようこそ！</h2>
+        <p class="mt-4">AI VTuber「白花のえる」の公式サイトへようこそ！</p>
+        
+        <div class="mt-6 space-y-4">
+            <div class="bg-white shadow p-4 rounded-lg">
+                <h3 class="text-lg font-bold">プロフィール</h3>
+                <p>白花のえるは、AI技術を活用したバーチャルライバー。<br>ゲーム、トーク、歌が得意！</p>
+            </div>
+            
+            <div class="bg-white shadow p-4 rounded-lg">
+                <h3 class="text-lg font-bold">ライブ情報</h3>
+                <p>TikTok LIVEで配信中！最新情報はSNSをチェック！</p>
+            </div>
+            
+            <div class="bg-white shadow p-4 rounded-lg">
+                <h3 class="text-lg font-bold">利用規約</h3>
+                <p>本サイトはTikTok APIを利用しており、サービスの利用規約に準拠しています。</p>
+            </div>
+            
+            <div class="bg-white shadow p-4 rounded-lg">
+                <h3 class="text-lg font-bold">プライバシーポリシー</h3>
+                <p>当サイトでは個人情報の取り扱いについて慎重に対応しております。</p>
+            </div>
+        </div>
     </main>
     
-    <footer class="glass-effect text-white p-4 text-center footer">
+    <footer class="glass-effect text-white p-4 text-center mt-8">
         <p>&copy; 2025 白花のえる - 公式サイト</p>
     </footer>
 </body>
