@@ -1,0 +1,11 @@
+/* privacy.css - プライバシーポリシー用のスタイル */
+.privacy-container {
+    padding: 30px;
+    line-height: 1.6;
+}
+
+.privacy-container h2 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
