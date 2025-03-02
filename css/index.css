@@ -1,6 +1,6 @@
 /* index.css - ホームページ用のスタイル */
-.index-container {
-    text-align: center;
+.welcome {
+    margin:20px 0 100px 0;
 }
 
 .index-section {
