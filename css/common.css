@@ -1,5 +1,6 @@
 /* 共通スタイル */
 body {
+    margin: 0 auto;
     font-family: 'Arial', sans-serif;
     background-color: #f5f5f5;
     box-sizing: border-box;
@@ -31,17 +32,12 @@ nav a {
     margin: 0 15px;
 }
 
-/* 本文エリアの余白調整 */
-main {
-    margin-top: 110px; /* ヘッダーの高さ分を確保 */
-    text-align: center;
-}
-
 /* 本文の横幅を最大限に */
 .index-container {
     max-width: 100%;
     padding: 20px;
-    margin: 0 auto;
+    margin-top: 110px; /* ヘッダーの高さ分を確保 */
+    text-align: center;
 }
 
 /* 四角のデザイン（カードスタイル） */
