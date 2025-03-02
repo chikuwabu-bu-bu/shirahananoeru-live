@@ -7,12 +7,17 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .glass-effect {
-            background: rgba(59, 130, 246, 0.6);
+            background: rgba(0, 0, 0, 0.6);
             backdrop-filter: blur(10px);
+        }
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
-<body class="bg-gray-100 text-gray-900">
+<body class="bg-gray-100 text-gray-900 flex flex-col min-h-screen">
     <header class="glass-effect text-white p-4 text-center fixed top-0 left-0 w-full z-50">
         <h1 class="text-3xl font-bold">白花のえる - 公式サイト</h1>
         <nav class="mt-2">
@@ -23,16 +28,14 @@
             <a href="https://elegant-brigadeiros-2859ec.netlify.app/privacy.html" class="px-3">プライバシーポリシー</a>
         </nav>
     </header>
-
     
-    <main class="max-w-3xl mx-auto p-8 mt-20">
-        <section id="home" class="p-8 text-center">
-            <h2 class="text-2xl font-bold">ようこそ！</h2>
-            <p>AI VTuber「白花のえる」の公式サイトへようこそ！</p>
-        </section>
+    <main class="max-w-3xl mx-auto p-8 mt-20 bg-white shadow rounded-lg flex-grow">
+        <h2 class="text-2xl font-bold text-center">ようこそ！</h2>
+        <p class="text-center mt-4">AI VTuber「白花のえる」の公式サイトへようこそ！
+        ここでは最新のライブ情報やプロフィールを紹介します。</p>
     </main>
     
-    <footer class="glass-effect text-white p-4 text-center mt-8">
+    <footer class="glass-effect text-white p-4 text-center footer">
         <p>&copy; 2025 白花のえる - 公式サイト</p>
     </footer>
 </body>
