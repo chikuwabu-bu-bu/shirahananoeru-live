@@ -10,14 +10,9 @@
             background: rgba(0, 0, 0, 0.6);
             backdrop-filter: blur(10px);
         }
-        .footer {
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-        }
     </style>
 </head>
-<body class="bg-gray-100 text-gray-900 flex flex-col min-h-screen">
+<body class="bg-gray-100 text-gray-900">
     <header class="glass-effect text-white p-4 text-center fixed top-0 left-0 w-full z-50">
         <h1 class="text-3xl font-bold">白花のえる - 公式サイト</h1>
         <nav class="mt-2">
@@ -29,24 +24,29 @@
         </nav>
     </header>
     
-    <main class="max-w-3xl mx-auto p-8 mt-20 bg-white shadow rounded-lg flex-grow">
-        <h2 class="text-2xl font-bold">プライバシーポリシー</h2>
-        <p class="mt-4">本プライバシーポリシーは、「Shirahana Noeru Live」（以下「当サービス」）における個人情報の取り扱いを定めるものです。</p>
+    <main class="max-w-3xl mx-auto p-8 mt-20 bg-white shadow rounded-lg">
+        <h2 class="text-2xl font-bold text-center">プライバシーポリシー</h2>
+        <p class="mt-4">本プライバシーポリシーは、「Shirahana Noeru Live」（以下「当サービス」）におけるユーザーの個人情報の取り扱いについて定めたものです。</p>
         
         <h3 class="text-xl font-bold mt-6">1. 収集する情報</h3>
-        <p>当サービスでは、ユーザーのコメント情報を取得することがありますが、個人を特定できる情報は収集しません。</p>
+        <p>当サービスでは、TikTok APIを通じて取得するコメントやギフト情報などのデータを利用する場合があります。</p>
         
-        <h3 class="text-xl font-bold mt-6">2. 収集の目的</h3>
-        <p>ユーザーとの対話を円滑に行うために、コメントの履歴を一時的に保持することがあります。</p>
+        <h3 class="text-xl font-bold mt-6">2. 利用目的</h3>
+        <p>取得した情報は、以下の目的で使用します。</p>
+        <ul class="list-disc ml-6">
+            <li>サービスの提供および向上</li>
+            <li>ユーザー体験の最適化</li>
+            <li>不正行為の防止</li>
+        </ul>
         
-        <h3 class="text-xl font-bold mt-6">3. 情報の管理</h3>
-        <p>収集した情報は適切に管理し、不正アクセスや情報漏洩を防止するための措置を講じます。</p>
+        <h3 class="text-xl font-bold mt-6">3. 第三者への提供</h3>
+        <p>当サービスでは、法令に基づく場合を除き、取得した情報を第三者に提供することはありません。</p>
         
         <h3 class="text-xl font-bold mt-6">4. お問い合わせ</h3>
-        <p>プライバシーポリシーに関するご質問は、<a href="mailto:your-email@example.com" class="text-blue-600">your-email@example.com</a> までご連絡ください。</p>
+        <p>本プライバシーポリシーに関するお問い合わせは、<a href="mailto:your-email@example.com" class="text-blue-500">your-email@example.com</a> までお願いいたします。</p>
     </main>
     
-    <footer class="glass-effect text-white p-4 text-center footer">
+    <footer class="glass-effect text-white p-4 text-center mt-8">
         <p>&copy; 2025 白花のえる - 公式サイト</p>
     </footer>
 </body>
