@@ -17,7 +17,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    height: 70px; /* ヘッダーの高さを固定 */
+    height: 100px; /* ヘッダーの高さを固定 */
     line-height: 40px;
     z-index: 1000;
 }
@@ -35,8 +35,7 @@ nav a {
 
 /* 本文エリアの余白調整 */
 main {
-    margin-top: 100px; /* ヘッダーの高さ分を確保 */
-    margin-bottom: 100px; /* フッターの高さ分を確保 */
+    padding-top: 100px; /* ヘッダーの高さ分を確保 */
     text-align: center;
 }
 
