@@ -31,7 +31,7 @@ nav a {
 
 /* 本文エリアの余白調整 */
 main {
-    margin-top: 100px; /* ヘッダーの高さ分を確保 */
+    margin-top: 200px; /* ヘッダーの高さ分を確保 */
     margin-bottom: 100px; /* フッターの高さ分を確保 */
     text-align: center;
 }
