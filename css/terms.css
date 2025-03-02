@@ -1,0 +1,11 @@
+/* terms.css - 利用規約用のスタイル */
+.terms-container {
+    padding: 30px;
+    line-height: 1.6;
+}
+
+.terms-container h2 {
+    border-bottom: 2px solid #28A745;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
