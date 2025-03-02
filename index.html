@@ -4,55 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>白花のえる - 公式サイト</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        .glass-effect {
-            background: rgba(0, 0, 0, 0.6);
-            backdrop-filter: blur(10px);
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-gray-100 text-gray-900">
+<body>
     <header class="glass-effect text-white p-4 text-center fixed top-0 left-0 w-full z-50">
         <h1 class="text-3xl font-bold">白花のえる - 公式サイト</h1>
         <nav class="mt-2">
-            <a href="https://elegant-brigadeiros-2859ec.netlify.app/" class="px-3">ホーム</a>
+            <a href="index.html" class="px-3">ホーム</a>
             <a href="profile.html" class="px-3">プロフィール</a>
             <a href="live.html" class="px-3">ライブ情報</a>
-            <a href="https://elegant-brigadeiros-2859ec.netlify.app/terms.html" class="px-3">利用規約</a>
-            <a href="https://elegant-brigadeiros-2859ec.netlify.app/privacy.html" class="px-3">プライバシーポリシー</a>
+            <a href="terms.html" class="px-3">利用規約</a>
+            <a href="privacy.html" class="px-3">プライバシーポリシー</a>
         </nav>
     </header>
-    
-    <main class="max-w-3xl mx-auto p-8 mt-20 bg-white shadow rounded-lg text-center">
-        <h2 class="text-2xl font-bold">ようこそ！</h2>
-        <p class="mt-4">AI VTuber「白花のえる」の公式サイトへようこそ！</p>
-        
-        <div class="mt-6 space-y-4">
-            <div class="bg-white shadow p-4 rounded-lg">
-                <h3 class="text-lg font-bold">プロフィール</h3>
+    <main class="container mx-auto px-4 py-16">
+        <h2 class="text-3xl font-bold text-center mb-8">ようこそ！</h2>
+        <p class="text-center text-lg mb-8">AI VTuber「白花のえる」の公式サイトへようこそ！</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div class="card">
+                <h3 class="font-bold text-xl">プロフィール</h3>
                 <p>白花のえるは、AI技術を活用したバーチャルライバー。<br>ゲーム、トーク、歌が得意！</p>
             </div>
-            
-            <div class="bg-white shadow p-4 rounded-lg">
-                <h3 class="text-lg font-bold">ライブ情報</h3>
+            <div class="card">
+                <h3 class="font-bold text-xl">ライブ情報</h3>
                 <p>TikTok LIVEで配信中！最新情報はSNSをチェック！</p>
             </div>
-            
-            <div class="bg-white shadow p-4 rounded-lg">
-                <h3 class="text-lg font-bold">利用規約</h3>
+            <div class="card">
+                <h3 class="font-bold text-xl"><a href="terms.html">利用規約</a></h3>
                 <p>本サイトはTikTok APIを利用しており、サービスの利用規約に準拠しています。</p>
             </div>
-            
-            <div class="bg-white shadow p-4 rounded-lg">
-                <h3 class="text-lg font-bold">プライバシーポリシー</h3>
+            <div class="card">
+                <h3 class="font-bold text-xl"><a href="privacy.html">プライバシーポリシー</a></h3>
                 <p>当サイトでは個人情報の取り扱いについて慎重に対応しております。</p>
             </div>
         </div>
     </main>
-    
     <footer class="glass-effect text-white p-4 text-center mt-8">
-        <p>&copy; 2025 白花のえる - 公式サイト</p>
+        <p>&copy; 2025 白花のえる - 公式サイト. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
