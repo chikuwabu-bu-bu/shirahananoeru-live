@@ -7,12 +7,17 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .glass-effect {
-            background: rgba(59, 130, 246, 0.6);
+            background: rgba(0, 0, 0, 0.6);
             backdrop-filter: blur(10px);
+        }
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
-<body class="bg-gray-100 text-gray-900">
+<body class="bg-gray-100 text-gray-900 flex flex-col min-h-screen">
     <header class="glass-effect text-white p-4 text-center fixed top-0 left-0 w-full z-50">
         <h1 class="text-3xl font-bold">白花のえる - 公式サイト</h1>
         <nav class="mt-2">
@@ -24,7 +29,7 @@
         </nav>
     </header>
     
-    <main class="max-w-3xl mx-auto p-8 mt-20 bg-white shadow rounded-lg">
+    <main class="max-w-3xl mx-auto p-8 mt-20 bg-white shadow rounded-lg flex-grow">
         <h2 class="text-2xl font-bold">プライバシーポリシー</h2>
         <p class="mt-4">本プライバシーポリシーは、「Shirahana Noeru Live」（以下「当サービス」）における個人情報の取り扱いを定めるものです。</p>
         
@@ -41,7 +46,7 @@
         <p>プライバシーポリシーに関するご質問は、<a href="mailto:your-email@example.com" class="text-blue-600">your-email@example.com</a> までご連絡ください。</p>
     </main>
     
-    <footer class="glass-effect text-white p-4 text-center mt-8">
+    <footer class="glass-effect text-white p-4 text-center footer">
         <p>&copy; 2025 白花のえる - 公式サイト</p>
     </footer>
 </body>
