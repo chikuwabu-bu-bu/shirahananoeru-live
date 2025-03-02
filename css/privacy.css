@@ -9,3 +9,8 @@
     padding-bottom: 5px;
     margin-bottom: 20px;
 }
+
+ul, ol {
+    list-style: none; /* リストマーカーを削除 */
+    padding-left: 0; /* 左の余白を削除 */
+}
