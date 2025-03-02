@@ -1,8 +1,9 @@
 /* index.css - ホームページ用のスタイル */
 .welcome {
-    padding-top:500px;
+    padding-top: 500px;
     width: 100%;
     height: 500px;
+    font-size: 60px;
 }
 .index-section {
     background: white;
